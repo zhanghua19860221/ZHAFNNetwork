@@ -1,0 +1,30 @@
+{
+  "name": "ZHAFNNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of ZHAFNNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhanghua19860221/ZHAFNNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhanghua": "3051942353@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhanghua19860221/ZHAFNNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZHAFNNetwork/Classes/**/*",
+  "dependencies": {
+    "YYCache": [
+      "1.0.4"
+    ],
+    "AFNetworking": [
+      "4.0.1"
+    ]
+  }
+}
