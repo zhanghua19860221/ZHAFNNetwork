@@ -1,11 +1,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZHAFNNetwork'
-  s.version          = '0.2.0'
-  s.summary          = 'A short description of ZHAFNNetwork.'
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.version          = '0.2.1'
+  s.summary          = '网络库 ZHAFNNetwork'
 
   s.homepage         = 'https://github.com/zhanghua19860221/ZHAFNNetwork'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -13,8 +10,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/zhanghua19860221/ZHAFNNetwork.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
+  
   s.source_files = 'ZHAFNNetwork/Classes/**/*'
-  s.dependency 'YYCache', '1.0.4'
-  s.dependency 'AFNetworking', '4.0.1'
+  
+  # s.resource_bundles = {
+  #   'ZHAFNNetwork' => ['ZHAFNNetwork/Assets/*.png']
+  # }
+  
+  s.dependency 'YYCache'
+  s.dependency 'AFNetworking'
 
 end
