@@ -15,9 +15,9 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - YYCache (1.0.4)
-  - ZHAFNNetwork (0.1.0):
-    - AFNetworking (= 4.0.1)
-    - YYCache (= 1.0.4)
+  - ZHAFNNetwork (0.2.0):
+    - AFNetworking
+    - YYCache
 
 DEPENDENCIES:
   - AFNetworking (= 4.0.1)
@@ -25,7 +25,7 @@ DEPENDENCIES:
   - ZHAFNNetwork (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - YYCache
 
@@ -36,7 +36,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
-  ZHAFNNetwork: 0bc4096c51928d9b583153418928d295a3853636
+  ZHAFNNetwork: 300ac2d6b47829a7ceb30fe7bba3e7830da7604f
 
 PODFILE CHECKSUM: 6e1e58d2cf5b9f4b92d69e0904c83f2d385687d1
 
