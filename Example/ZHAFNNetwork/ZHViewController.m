@@ -37,7 +37,9 @@
     //POST网络请求
     [ZHNetwork POSTWithURL:@"url" parameters:@{} callback:^(id  _Nullable responseObject, NSError * _Nullable error, BOOL isFromCache) {
             
-    }];}
+    }];
+    
+}
 
 - (void)didReceiveMemoryWarning
 {

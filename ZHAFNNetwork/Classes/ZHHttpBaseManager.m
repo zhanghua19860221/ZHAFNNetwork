@@ -7,6 +7,7 @@
 
 #import "ZHHttpBaseManager.h"
 #import "YYCache.h"
+#import "AFNetworking.h"
 #import "AFNetworkActivityIndicatorManager.h"
 #import <SystemConfiguration/CaptiveNetwork.h>
 #import <CommonCrypto/CommonDigest.h>

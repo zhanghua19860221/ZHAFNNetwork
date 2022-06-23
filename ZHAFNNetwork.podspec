@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZHAFNNetwork'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = '网络库 ZHAFNNetwork'
 
   s.homepage         = 'https://github.com/zhanghua19860221/ZHAFNNetwork'

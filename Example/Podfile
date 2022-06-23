@@ -5,7 +5,8 @@ platform :ios, '10.0'
 
 target 'ZHAFNNetwork_Example' do
   pod 'ZHAFNNetwork', :path => '../'
-  pod 'AFNetworking','4.0.1'
-  pod 'YYCache','1.0.4'
+  
+  pod 'AFNetworking'
+  pod 'YYCache'
   
 end

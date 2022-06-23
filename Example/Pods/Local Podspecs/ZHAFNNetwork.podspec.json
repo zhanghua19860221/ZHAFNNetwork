@@ -1,6 +1,6 @@
 {
   "name": "ZHAFNNetwork",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "网络库 ZHAFNNetwork",
   "homepage": "https://github.com/zhanghua19860221/ZHAFNNetwork",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/zhanghua19860221/ZHAFNNetwork.git",
-    "tag": "0.2.0"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "10.0"
